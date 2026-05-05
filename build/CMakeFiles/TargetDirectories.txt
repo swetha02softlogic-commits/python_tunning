@@ -1,0 +1,8 @@
+/home/amt-06/tunning/build/CMakeFiles/pyTunning.dir
+/home/amt-06/tunning/build/CMakeFiles/edit_cache.dir
+/home/amt-06/tunning/build/CMakeFiles/rebuild_cache.dir
+/home/amt-06/tunning/build/CMakeFiles/list_install_components.dir
+/home/amt-06/tunning/build/CMakeFiles/install.dir
+/home/amt-06/tunning/build/CMakeFiles/install/local.dir
+/home/amt-06/tunning/build/CMakeFiles/install/strip.dir
+/home/amt-06/tunning/build/CMakeFiles/pyTunning_autogen.dir

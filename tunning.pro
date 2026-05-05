@@ -1,10 +1,10 @@
-QT       += core gui
+QT       += core gui widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 
-TARGET = pyTunning
+TARGET = pyTunning_v1
 TEMPLATE = app
 
 SOURCES += \
@@ -32,3 +32,12 @@ LIBS += -L$$PWD -lhwhandler
 # Include path
 INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
+
+# Copy python script to deployment target
+pythonfiles.files = python/tuning_mainwindow.py
+pythonfiles.path = /opt/$${TARGET}/python
+INSTALLS += pythonfiles
+
+DISTFILES +=
+
+
